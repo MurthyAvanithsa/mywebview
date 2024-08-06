@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Template</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar dark-grey">
+      <a class="navbar-brand text-white fw-bold px-3" href="#">PBR TEAMS</a>
+    </nav>
+
+    <ul class="nav nav-tabs px-2 dark-grey" id="myTab" role="tablist">
+      <li class="nav-item main-tab">
+        <a class="nav-link" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details" aria-selected="true">Details</a>
+      </li>
+      <li class="nav-item active main-tab">
+        <a class="nav-link active" id="results-tab" data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false">Results</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <!-- DETAILS TAB -->
+      <div class="tab-pane fade px-2" id="details" role="tabpanel" aria-labelledby="details-tab">
+        <p>Details tab coming soon.</p>
+      </div>
+      <!-- RESULTS TAB -->
+      <div class="tab-pane fade show active" id="results" role="tabpanel" aria-labelledby="results-tab">
+        <!-- DATE TABS -->
+        <ul class="nav nav-tabs sub-tabs pt-5 px-2" id="myTab2" role="tablist">
+          <li class="nav-item active">
+            <a class="nav-link active" id="aug02-tab" data-toggle="tab" href="#aug02" role="tab" aria-controls="aug02" aria-selected="true">Aug 02</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="aug03-tab" data-toggle="tab" href="#aug03" role="tab" aria-controls="aug03" aria-selected="false">Aug 03</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="aug04-tab" data-toggle="tab" href="#aug04" role="tab" aria-controls="aug04" aria-selected="true">Aug 04</a>
+          </li>
+        </ul>
+        <!-- WINNER CARD -->
+        <div class="tab-content" id="myTab2Content">
+          <div class="tab-pane fade show active" id="aug02-tab" role="tabpanel" aria-labelledby="aug02-tab">
+            <div class="card card-dark px-3">
+              <div class="d-flex flex-column justify-content-center align-items-center mb-2">
+                <img src="./OKW-Master_Logo_BLUE_border.webp" class="card-img-top" alt="..." />
+                <div class="badge text-bg-danger negMartop">WINNER</div>
+              </div>
+              <div class="card-body p-0 d-flex flex-column gap-3 mb-3">
+                <h6 class="w-100 d-flex justify-content-center card-title text-uppercase">Oklahoma Wildcatters</h6>
+                <div class="d-flex align-items-center gap-2">
+                  <img src="./paulo.webp" class="avatar" alt="paulo" />
+                  <div>
+                    <div class="text-caption fw-semibold text-uppercase">MVP</div>
+                    <div class="text-pbody fw-bold">Paulo Eduardo Rosseto - Missouri Thunder</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                  <img src="./bull-profile-default.webp" class="avatar" alt="bull" />
+                  <div>
+                    <div class="text-caption fw-semibold text-uppercase">Bull of the weekend</div>
+                    <div class="text-pbody fw-bold">Cold Creek</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="aug03-tab" role="tabpanel" aria-labelledby="aug03-tab">
+            <p>Aug 03</p>
+          </div>
+          <div class="tab-pane fade" id="aug04-tab" role="tabpanel" aria-labelledby="aug04-tab">
+            <p>Aug 04</p>
+          </div>
+        </div>
+        <!-- MATCH CARDS -->
+        <div class="card card-dark-result mb-3">
+          <div class="d-flex flex-column w-100 px-3 py-2">
+            <div class="d-flex justify-content-between align-items-center w-100 px-3 py-2">
+              <div class="text-center">
+                <img src="./OKW-Master_Logo_BLUE_border.webp" class="card-img-small" alt="..." />
+                <div class="team-title">Oklahoma Wildcatters</div>
+                <div class="fs-4">264.75</div>
+              </div>
+              <div><i class="bi bi-caret-left-fill"></i><span class="fw-semibold ms-1">FINAL</span></div>
+              <div class="text-center">
+                <img src="./KCOutlaws_Badge_Primary.webp" class="card-img-small" alt="..." />
+                <div class="team-title">Kansas City Outlaws</div>
+                <div class="fs-4">174.50</div>
+              </div>
+            </div>
+            <!-- RIDES -->
+            <div class="card card-rides px-3 py-2">
+              <div class="text-caption text-center fw-semibold text-uppercase">Rides & Buckoffs</div>
+              <div class="d-flex justify-content-between">
+                <span>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                </span>
+                <span>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                </span>
+              </div>
+            </div>
+            <!-- DETAILED RESULTS -->
+            <button type="button" class="btn btn-link text-uppercase text-danger link-underline link-underline-opacity-0 me-2">
+              View Detailed Results <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="card card-dark-result mb-3">
+          <div class="d-flex flex-column w-100 px-3 py-2">
+            <div class="d-flex justify-content-between align-items-center w-100 px-3 py-2">
+              <div class="text-center">
+                <img src="./OKW-Master_Logo_BLUE_border.webp" class="card-img-small" alt="..." />
+                <div class="team-title">Oklahoma Wildcatters</div>
+                <div class="fs-4">264.75</div>
+              </div>
+              <div><i class="bi bi-caret-left-fill"></i><span class="fw-semibold ms-1">FINAL</span></div>
+              <div class="text-center">
+                <img src="./KCOutlaws_Badge_Primary.webp" class="card-img-small" alt="..." />
+                <div class="team-title">Kansas City Outlaws</div>
+                <div class="fs-4">174.50</div>
+              </div>
+            </div>
+            <!-- RIDES -->
+            <div class="card card-rides px-3 py-2">
+              <div class="text-caption text-center fw-semibold text-uppercase">Rides & Buckoffs</div>
+              <div class="d-flex justify-content-between">
+                <span>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                </span>
+                <span>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                </span>
+              </div>
+            </div>
+            <!-- DETAILED RESULTS -->
+            <button type="button" class="btn btn-link text-uppercase text-danger link-underline link-underline-opacity-0 me-2">
+              View Detailed Results <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="card card-dark-result mb-3">
+          <div class="d-flex flex-column w-100 px-3 py-2">
+            <div class="d-flex justify-content-between align-items-center w-100 px-3 py-2">
+              <div class="text-center">
+                <img src="./OKW-Master_Logo_BLUE_border.webp" class="card-img-small" alt="..." />
+                <div class="team-title">Oklahoma Wildcatters</div>
+                <div class="fs-4">264.75</div>
+              </div>
+              <div><i class="bi bi-caret-left-fill"></i><span class="fw-semibold ms-1">FINAL</span></div>
+              <div class="text-center">
+                <img src="./KCOutlaws_Badge_Primary.webp" class="card-img-small" alt="..." />
+                <div class="team-title">Kansas City Outlaws</div>
+                <div class="fs-4">174.50</div>
+              </div>
+            </div>
+            <!-- RIDES -->
+            <div class="card card-rides px-3 py-2">
+              <div class="text-caption text-center fw-semibold text-uppercase">Rides & Buckoffs</div>
+              <div class="d-flex justify-content-between">
+                <span>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                </span>
+                <span>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                  <i class="bi bi-x-circle-fill red"></i>
+                  <i class="bi bi-check-circle-fill green"></i>
+                </span>
+              </div>
+            </div>
+            <!-- DETAILED RESULTS -->
+            <button type="button" class="btn btn-link text-uppercase text-danger link-underline link-underline-opacity-0 me-2">
+              View Detailed Results <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function () {
+        // Activate tab on click
+        $("#myTab a").on("click", function (e) {
+          e.preventDefault();
+          $(this).tab("show");
+          $(".nav-item").removeClass("active");
+          $(this).parent().addClass("active");
+        });
+
+        $("#myTab2 a").on("click", function (e) {
+          e.preventDefault();
+          $(this).tab("show");
+          $(".nav-item").removeClass("active");
+          $(this).parent().addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>

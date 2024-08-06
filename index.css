@@ -1,0 +1,106 @@
+body {
+  background-color: #0a0a12;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+.dark-grey {
+  background-color: #181820;
+}
+
+.nav-tabs .nav-link.active {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+.nav-tabs .nav-link {
+  border: none;
+  color: #495057;
+}
+.nav-tabs .main-tab {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.nav-tabs .nav-item.active {
+  border-bottom: 3px solid #cb2d2b;
+}
+
+.nav-tabs {
+  border-bottom: transparent;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.card-img-top {
+  object-fit: contain;
+  height: 80px;
+  width: 80px;
+}
+
+.card-img-small {
+  object-fit: contain;
+  height: 70px;
+  width: 70px;
+}
+
+.card-dark {
+  color: #fff !important;
+  background-color: #111217;
+  display: flex;
+}
+
+.card-dark-result {
+  color: #fff !important;
+  background-color: #15151d;
+  display: flex;
+  align-items: center;
+}
+
+.sub-tabs {
+  background-color: #0a0a12;
+}
+
+.team-title {
+  width: 70px;
+  font-size: 0.8rem;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #342931;
+}
+.text-caption {
+  color: #a4a4a8;
+  font-size: 0.85rem;
+}
+
+.text-pbody {
+  font-size: 0.85rem;
+}
+
+.negMartop {
+  margin-top: -0.75rem;
+}
+
+.card-rides {
+  background-color: #20232c;
+  border-radius: 1rem;
+}
+
+.green {
+  color: #9ce873;
+}
+
+.red {
+  color: #e35643;
+}
